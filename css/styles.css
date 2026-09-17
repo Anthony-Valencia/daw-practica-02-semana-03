@@ -1,0 +1,50 @@
+/* ===== Chifa Pollería El Dragón - Estilos personalizados ===== */
+
+/* Botón dorado personalizado */
+.btn-gold {
+    background: linear-gradient(135deg, #d4af35, #b8942a);
+    border: none;
+    color: #1a1614;
+    transition: all 0.3s ease;
+}
+.btn-gold:hover {
+    background: linear-gradient(135deg, #e5c04a, #d4af35);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(212, 175, 53, 0.3);
+    color: #1a1614;
+}
+
+/* Botón outline dorado */
+.btn-outline-gold {
+    border: 1.5px solid rgba(212, 175, 53, 0.6);
+    color: #d4af35;
+    transition: all 0.3s ease;
+}
+.btn-outline-gold:hover {
+    background: rgba(212, 175, 53, 0.15);
+    border-color: #d4af35;
+    color: #f8e3b4;
+}
+
+/* Navbar backdrop */
+.backdrop-blur {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+/* Ajuste para el dropdown en tema oscuro */
+.dropdown-menu-dark {
+    background-color: #3c2a25;
+}
+.dropdown-menu-dark .dropdown-item {
+    color: #f8e3b4;
+}
+.dropdown-menu-dark .dropdown-item:hover {
+    background-color: rgba(212, 175, 53, 0.15);
+}
+
+/* Selección de texto */
+::selection {
+    background: rgba(212, 175, 53, 0.3);
+    color: #f8e3b4;
+}
